@@ -17,6 +17,7 @@ public class PDMain {
         
         Empresa emp = new Empresa(nome, Math.random(), 2021);
         PDMain.abrirMenuInicial(entrada, emp);
+        System.out.println("Não sei trabalhar com GitHub ainda kkkkkk");
     }
     
     private static void abrirMenuInicial(Scanner entrada, Empresa emp) {
