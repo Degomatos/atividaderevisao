@@ -1,5 +1,5 @@
 package application;
-
+//Essa classe foi entregue pronta pelo professor para que criassemos os objetos com base na questão e nos metódos que já estavam prontos
 import java.util.Scanner;
 
 import company.Departamento;
@@ -17,7 +17,6 @@ public class PDMain {
         
         Empresa emp = new Empresa(nome, Math.random(), 2021);
         PDMain.abrirMenuInicial(entrada, emp);
-        System.out.println("Não sei trabalhar com GitHub ainda kkkkkk");
     }
     
     private static void abrirMenuInicial(Scanner entrada, Empresa emp) {
